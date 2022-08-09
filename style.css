@@ -160,4 +160,15 @@ h6 {
   .hero__container > * {
     flex-basis: 100%;
   }
+
+  .hero__container {
+    position: relative;
+  }
+
+  .hero__social {
+    position: absolute;
+    margin-top: 0;
+    right: 0;
+    bottom: 0;
+  }
 }
